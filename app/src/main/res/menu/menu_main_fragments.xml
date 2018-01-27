@@ -8,6 +8,9 @@
         android:title="@string/action_settings"
         app:showAsAction="never" />
     <item
+        android:id="@+id/menuSplitActivity"
+        android:title="@string/split_activity" />
+    <item
         android:id="@+id/menuExit"
-        android:title="Exit" />
+        android:title="@string/exit" />
 </menu>

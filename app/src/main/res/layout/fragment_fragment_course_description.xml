@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.workaround.ajeesh.ajr_27012018_workaround_fragments.Fragments.FragmentCourseDescription">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textViewCourseDesc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:paddingEnd="@dimen/padding_right_com"
+        android:paddingLeft="@dimen/padding_left_com"
+        android:paddingRight="@dimen/padding_right_com"
+        android:paddingStart="@dimen/padding_right_com"
+        android:text="@string/desc_text_initial"
+        android:textSize="@dimen/text_size_com"
+        android:textStyle="bold" />
+
+</FrameLayout>

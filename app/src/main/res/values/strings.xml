@@ -2,4 +2,16 @@
     <string name="app_name">AJR-27012018-WORKAROUND-FRAGMENTS</string>
     <string name="action_settings">Settings</string>
     <string name="main_text">An Android application for working with Fragments.\nDated : 27-Jan-2018 11:30 AM \n</string>
+    <string name="title_activity_split">ActivitySplit</string>
+    <string name="split_activity">Split Activity</string>
+    <string name="exit">Exit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="android_4_0_new_features">Android 4.0 New Features</string>
+    <string name="intro_to_android_development">Intro to Android Development</string>
+    <string name="android_programming_with_intents">Android Programming with Intents</string>
+    <string name="improving_ui_interaction_with_android_actionbar">Improving UI Interaction with Android ActionBar</string>
+    <string name="android_async_programming_and_services">Android Async Programming and Services</string>
+    <string name="desc_text_initial">This is the place where each individual course\'s description will appear</string>
 </resources>

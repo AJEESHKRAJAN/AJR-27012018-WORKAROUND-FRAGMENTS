@@ -1,5 +1,6 @@
 package com.workaround.ajeesh.ajr_27012018_workaround_fragments;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -62,6 +63,10 @@ public class MainFragmentsActivity extends AppCompatActivity {
             case R.id.action_settings: {
                 break;
             }
+            case R.id.menuSplitActivity: {
+                generateActivityOnClassType(ActivitySplit.class);
+                break;
+            }
             case R.id.menuExit: {
                 onClickExit(item);
             }
@@ -72,7 +77,14 @@ public class MainFragmentsActivity extends AppCompatActivity {
         return handled;
     }
 
+    private void generateActivityOnClassType(Class<?> activityClass) {
+        LogHelper.LogThreadId(logName, "Activity generated for :" + activityClass);
+        Intent intent = new Intent(this, activityClass);
+        startActivity(intent);
+    }
+
     private void onClickExit(MenuItem item) {
         finish();
     }
+
 }

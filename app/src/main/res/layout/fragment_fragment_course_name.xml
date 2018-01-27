@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.workaround.ajeesh.ajr_27012018_workaround_fragments.Fragments.FragmentCourseName">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RadioGroup
+        android:id="@+id/courseNameFragmentRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="@dimen/padding_right_com"
+        android:paddingLeft="@dimen/padding_left_com"
+        android:paddingRight="@dimen/padding_right_com"
+        android:paddingStart="@dimen/padding_right_com"
+        android:textSize="@dimen/text_size_com"
+        android:textStyle="bold">
+
+        <RadioButton
+            android:id="@+id/courseForNewFeaturesRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/android_4_0_new_features" />
+
+        <RadioButton
+            android:id="@+id/courseIntroRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/intro_to_android_development" />
+
+        <RadioButton
+            android:id="@+id/courseIntentsRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/android_programming_with_intents" />
+
+        <RadioButton
+            android:id="@+id/courseActionBarRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/improving_ui_interaction_with_android_actionbar" />
+
+        <RadioButton
+            android:id="@+id/courseAsyncAndServices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/android_async_programming_and_services" />
+    </RadioGroup>
+
+</FrameLayout>

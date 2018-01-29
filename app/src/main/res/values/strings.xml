@@ -14,4 +14,7 @@
     <string name="improving_ui_interaction_with_android_actionbar">Improving UI Interaction with Android ActionBar</string>
     <string name="android_async_programming_and_services">Android Async Programming and Services</string>
     <string name="desc_text_initial">This is the place where each individual course\'s description will appear</string>
+    <string name="title_activity_seperate_one">ActivitySeperateOne</string>
+    <string name="title_activity_seperate_two">ActivitySeperateTwo</string>
+    <string name="seperate_activity">Seperate Activity</string>
 </resources>

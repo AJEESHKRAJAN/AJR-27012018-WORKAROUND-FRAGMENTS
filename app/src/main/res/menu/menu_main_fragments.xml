@@ -11,6 +11,9 @@
         android:id="@+id/menuSplitActivity"
         android:title="@string/split_activity" />
     <item
+        android:id="@+id/menuSeperateActivity"
+        android:title="@string/seperate_activity" />
+    <item
         android:id="@+id/menuExit"
         android:title="@string/exit" />
 </menu>

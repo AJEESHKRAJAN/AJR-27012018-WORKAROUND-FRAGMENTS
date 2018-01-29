@@ -22,6 +22,14 @@
         <activity
             android:name=".ActivitySplit"
             android:label="@string/title_activity_split"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActivitySeperateOne"
+            android:label="@string/title_activity_seperate_one"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActivitySeperateTwo"
+            android:label="@string/title_activity_seperate_two"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

@@ -1,13 +1,16 @@
 package com.workaround.ajeesh.ajr_27012018_workaround_fragments.Fragments;
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
+import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RadioButton;
+import android.widget.Toast;
 
 import com.workaround.ajeesh.ajr_27012018_workaround_fragments.Helpers.LogHelper;
+import com.workaround.ajeesh.ajr_27012018_workaround_fragments.Interface.ICourseCoordinator;
 import com.workaround.ajeesh.ajr_27012018_workaround_fragments.R;
 
 public class FragmentCourseName extends Fragment implements View.OnClickListener {
@@ -51,6 +54,14 @@ public class FragmentCourseName extends Fragment implements View.OnClickListener
         CharSequence courseText = radioButton.getText();
 
         int index = translateIdToIndex(selectedId);
+
+        Activity activity = getActivity();
+
+        Toast t = Toast.makeText(activity, courseText, Toast.LENGTH_LONG);
+        t.show();
+
+        ICourseCoordinator iCourseCoordinator = (ICourseCoordinator) activity;
+        iCourseCoordinator.onSelectedOptionChanged(index);
     }
 
     int translateIdToIndex(int id) {

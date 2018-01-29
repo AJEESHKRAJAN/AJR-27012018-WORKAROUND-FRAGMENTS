@@ -2,8 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:orientation="horizontal"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.workaround.ajeesh.ajr_27012018_workaround_fragments.ActivitySplit"
@@ -15,7 +15,7 @@
         android:name="com.workaround.ajeesh.ajr_27012018_workaround_fragments.Fragments.FragmentCourseName"
         class="com.workaround.ajeesh.ajr_27012018_workaround_fragments.Fragments.FragmentCourseName"
         android:layout_width="0px"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_weight="1" />
 
     <fragment
@@ -23,6 +23,6 @@
         android:name="com.workaround.ajeesh.ajr_27012018_workaround_fragments.Fragments.FragmentCourseDescription"
         class="com.workaround.ajeesh.ajr_27012018_workaround_fragments.Fragments.FragmentCourseDescription"
         android:layout_width="0px"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_weight="1" />
 </LinearLayout>

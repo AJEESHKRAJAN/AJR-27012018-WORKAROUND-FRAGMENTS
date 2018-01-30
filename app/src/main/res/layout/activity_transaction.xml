@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.workaround.ajeesh.ajr_27012018_workaround_fragments.ActivityTransaction">
+
+    <LinearLayout
+        android:id="@+id/group1"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="6">
+        <!--
+               <fragment class="com.example.Fragment1"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                       />
+       -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/group2"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickBtnAdd"
+            android:text="Add 1" />
+
+        <Button
+            android:id="@+id/btnRemove"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickBtnRemove"
+            android:text="@string/rmv_then_add_2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/group4"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnReplace"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickBtnReplace"
+            android:text="@string/replace_with_1" />
+
+        <Button
+            android:id="@+id/btnPrevious"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickBtnPrevious"
+            android:text="@string/mov_prv" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/group3"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAttach"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickBtnAttach"
+            android:text="@string/attach" />
+
+        <Button
+            android:id="@+id/btnDetach"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickBtnDetach"
+            android:text="@string/detach" />
+    </LinearLayout>
+
+</LinearLayout>

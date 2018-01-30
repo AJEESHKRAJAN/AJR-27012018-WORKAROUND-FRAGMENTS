@@ -17,6 +17,9 @@
         android:id="@+id/menuButtonHandlingActivity"
         android:title="@string/button_handling" />
     <item
+        android:id="@+id/menuTransactionsActivity"
+        android:title="@string/transactions_main_text" />
+    <item
         android:id="@+id/menuExit"
         android:title="@string/exit" />
 </menu>

@@ -1,0 +1,13 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.workaround.ajeesh.ajr_27012018_workaround_fragments.Fragments.FragmentTransactionBuilderTwo">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/transaction_builder_fragment_two"
+        android:textColor="#FF0000" />
+
+</FrameLayout>

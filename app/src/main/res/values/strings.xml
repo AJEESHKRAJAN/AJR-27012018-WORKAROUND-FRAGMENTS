@@ -21,4 +21,12 @@
     <string name="click_count_0">Click count: 0</string>
     <string name="push_me">Push Me</string>
     <string name="button_handling">Button Handling</string>
+    <string name="transaction_builder_fragment_one">Transaction Builder Fragment - One</string>
+    <string name="transaction_builder_fragment_two">Transaction Builder Fragment - Two</string>
+    <string name="transactions_main_text">Transactions</string>
+    <string name="rmv_then_add_2">Rmv then Add 2</string>
+    <string name="replace_with_1">Replace with 1</string>
+    <string name="mov_prv">Move Prev</string>
+    <string name="attach">Attach</string>
+    <string name="detach">Detach</string>
 </resources>

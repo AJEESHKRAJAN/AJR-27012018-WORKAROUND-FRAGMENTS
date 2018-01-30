@@ -8,10 +8,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.FrameLayout;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.workaround.ajeesh.ajr_27012018_workaround_fragments.Helpers.LogHelper;
 import com.workaround.ajeesh.ajr_27012018_workaround_fragments.R;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class FragmentButtonHandling extends Fragment implements View.OnClickListener {
     private int _clickCount = 0;
@@ -30,6 +35,14 @@ public class FragmentButtonHandling extends Fragment implements View.OnClickList
         View theView = inflater.inflate(R.layout.fragment_fragment_button_handling, container, false);
 
         _textViewClickCount = theView.findViewById(R.id.textViewClickCount);
+
+        FrameLayout layout = theView.findViewById(R.id.buttonHandlingFrame);
+        List<View> childViews = new ArrayList<View>();
+        for (int count = 0; count < layout.getChildCount(); count++) {
+            childViews.add(layout.getChildAt(count));
+            LogHelper.LogThreadId(logName, "Button Handling Fragment : Control No : " + count++ + " : " + layout.getChildAt(count));
+        }
+
 
         Button button = theView.findViewById(R.id.buttonPushMe);
         button.setOnClickListener(this);

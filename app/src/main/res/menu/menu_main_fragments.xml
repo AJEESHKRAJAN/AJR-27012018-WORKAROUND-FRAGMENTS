@@ -20,6 +20,9 @@
         android:id="@+id/menuTransactionsActivity"
         android:title="@string/transactions_main_text" />
     <item
+        android:id="@+id/menuListTypeActivity"
+        android:title="@string/fragments_list_type" />
+    <item
         android:id="@+id/menuExit"
         android:title="@string/exit" />
 </menu>

@@ -5,7 +5,6 @@ import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
@@ -104,9 +103,9 @@ public class ActivityTransaction extends AppCompatActivity implements FragmentMa
         fm.popBackStack();
     }
 
-    public void showMsg(String msg) {
-        LogHelper.LogThreadId(logName, "Transaction Activity : Message formed : " + msg);
-        Toast t = Toast.makeText(this, msg, Toast.LENGTH_LONG);
+    public void showMsg() {
+        LogHelper.LogThreadId(logName, "Transaction Activity : Message formed : " + "BackStack Changed");
+        Toast t = Toast.makeText(this, "BackStack Changed", Toast.LENGTH_LONG);
         t.show();
     }
 
@@ -120,7 +119,7 @@ public class ActivityTransaction extends AppCompatActivity implements FragmentMa
 
     @Override
     public void onBackStackChanged() {
-        showMsg("BackStack Changed");
+        showMsg();
         LogHelper.LogThreadId(logName, "************************************************************");
         LogHelper.LogThreadId(logName, "BackStack Changed - BackStackEntry's (starting with index 0)");
         FragmentManager fm = getFragmentManager();

@@ -14,6 +14,9 @@
         android:id="@+id/menuSeperateActivity"
         android:title="@string/seperate_activity" />
     <item
+        android:id="@+id/menuButtonHandlingActivity"
+        android:title="@string/button_handling" />
+    <item
         android:id="@+id/menuExit"
         android:title="@string/exit" />
 </menu>

@@ -30,6 +30,10 @@
         <activity
             android:name=".ActivitySeperateTwo"
             android:label="@string/title_activity_seperate_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActivityButtonClick"
+            android:label="@string/title_activity_button_click"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

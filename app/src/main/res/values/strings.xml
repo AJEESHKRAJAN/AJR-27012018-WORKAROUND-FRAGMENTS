@@ -17,4 +17,8 @@
     <string name="title_activity_seperate_one">ActivitySeperateOne</string>
     <string name="title_activity_seperate_two">ActivitySeperateTwo</string>
     <string name="seperate_activity">Seperate Activity</string>
+    <string name="title_activity_button_click">ActivityButtonClick</string>
+    <string name="click_count_0">Click count: 0</string>
+    <string name="push_me">Push Me</string>
+    <string name="button_handling">Button Handling</string>
 </resources>

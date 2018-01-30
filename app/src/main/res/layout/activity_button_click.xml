@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.workaround.ajeesh.ajr_27012018_workaround_fragments.ActivityButtonClick">
+
+    <fragment
+        android:id="@+id/buttonHandlingFragment"
+        android:name="com.workaround.ajeesh.ajr_27012018_workaround_fragments.Fragments.FragmentButtonHandling"
+        class="com.workaround.ajeesh.ajr_27012018_workaround_fragments.Fragments.FragmentButtonHandling"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

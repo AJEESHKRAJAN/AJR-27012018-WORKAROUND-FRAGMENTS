@@ -30,4 +30,5 @@
     <string name="attach">Attach</string>
     <string name="detach">Detach</string>
     <string name="fragments_list_type">Fragments - List Type</string>
+    <string name="fragments_web_view">Fragments - Web View</string>
 </resources>

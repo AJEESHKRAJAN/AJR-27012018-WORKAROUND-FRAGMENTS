@@ -7,6 +7,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/padding_left_com"
+        android:layout_marginStart="@dimen/padding_left_com"
         android:text="@string/transaction_builder_fragment_two"
         android:textColor="#FF0000" />
 

@@ -87,6 +87,10 @@ public class MainFragmentsActivity extends AppCompatActivity {
                 generateActivityOnClassType(ActivityWebViewType.class);
                 break;
             }
+            case R.id.menuDialogTypeActivity: {
+                generateActivityOnClassType(ActivityDialogType.class);
+                break;
+            }
             case R.id.menuExit: {
                 onClickExit(item);
             }

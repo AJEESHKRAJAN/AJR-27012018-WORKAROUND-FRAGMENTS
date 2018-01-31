@@ -31,4 +31,11 @@
     <string name="detach">Detach</string>
     <string name="fragments_list_type">Fragments - List Type</string>
     <string name="fragments_web_view">Fragments - Web View</string>
+    <string name="do_you_really_want_to">Do you really want to?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="fragments_dialog_type">Fragments - Dialog Type</string>
+    <string name="dialog_alert">Dialog Alert</string>
+    <string name="dialog_basic">Dialog Basic</string>
+    <string name="dialog_as_fragment">Dialog as Fragment</string>
 </resources>

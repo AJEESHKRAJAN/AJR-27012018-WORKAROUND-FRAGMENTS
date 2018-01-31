@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.workaround.ajeesh.ajr_27012018_workaround_fragments.MainFragmentsActivity">
+
+    <item
+        android:id="@+id/menuDialogBasic"
+        android:title="@string/dialog_basic" />
+    <item
+        android:id="@+id/menuDialogAlert"
+        android:title="@string/dialog_alert" />
+    <item
+        android:id="@+id/menuDialogFragment"
+        android:title="@string/dialog_as_fragment" />
+    <item
+        android:id="@+id/menuExit"
+        android:title="@string/exit" />
+</menu>

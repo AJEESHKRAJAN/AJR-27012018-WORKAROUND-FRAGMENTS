@@ -38,7 +38,10 @@
         <activity android:name=".ActivityTransaction" />
         <activity android:name=".ActivityListType" />
         <activity android:name=".ActivityWebViewType" />
-        <activity android:name=".ActivityDialogType"></activity>
+        <activity android:name=".ActivityDialogType" />
+        <activity android:name=".ActivityActionBar" />
+        <activity android:name=".ActivityListNavigation" />
+        <activity android:name=".ActivityTabbedNavigation"></activity>
     </application>
 
 </manifest>

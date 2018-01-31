@@ -29,6 +29,9 @@
         android:id="@+id/menuDialogTypeActivity"
         android:title="@string/fragments_dialog_type" />
     <item
+        android:id="@+id/menuFragmentActionBarActivity"
+        android:title="@string/fragment_action_bar" />
+    <item
         android:id="@+id/menuExit"
         android:title="@string/exit" />
 </menu>

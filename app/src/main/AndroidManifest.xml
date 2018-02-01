@@ -41,7 +41,10 @@
         <activity android:name=".ActivityDialogType" />
         <activity android:name=".ActivityActionBar" />
         <activity android:name=".ActivityListNavigation" />
-        <activity android:name=".ActivityTabbedNavigation"></activity>
+        <activity
+            android:name=".ActivityTabbedNavigation"
+            android:label="@string/title_activity_tabbed_navigation"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

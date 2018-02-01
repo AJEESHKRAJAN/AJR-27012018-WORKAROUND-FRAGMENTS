@@ -7,7 +7,6 @@ import android.support.v4.app.FragmentPagerAdapter;
 import com.workaround.ajeesh.ajr_27012018_workaround_fragments.Fragments.FragmentTabbedOne;
 import com.workaround.ajeesh.ajr_27012018_workaround_fragments.Fragments.FragmentTabbedTwo;
 import com.workaround.ajeesh.ajr_27012018_workaround_fragments.Helpers.LogHelper;
-import com.workaround.ajeesh.ajr_27012018_workaround_fragments.R;
 
 /**
  * Package Name : com.workaround.ajeesh.ajr_27012018_workaround_fragments.Adapter
@@ -17,14 +16,12 @@ import com.workaround.ajeesh.ajr_27012018_workaround_fragments.R;
 
 public class AdapterPagerTabbedNavigation extends FragmentPagerAdapter {
     private String logName = "WWF-ADP-PGR-TAB";
-    FragmentManager fragmentManager;
     private int mNumOfTabs;
 
 
     public AdapterPagerTabbedNavigation(FragmentManager fragmentManager, int tabCount) {
         super(fragmentManager);
         mNumOfTabs = tabCount;
-        fragmentManager = fragmentManager;
         LogHelper.LogThreadId(logName, "Pager Adapter - Tabbed Navigation - Initiated");
     }
 
@@ -35,13 +32,11 @@ public class AdapterPagerTabbedNavigation extends FragmentPagerAdapter {
         switch (position) {
             case 0:
                 theFragment = new FragmentTabbedOne();
-
                 LogHelper.LogThreadId(logName, "Pager Adapter - Tabbed Navigation - Fragment Selected : " + theFragment);
                 return theFragment;
 
             case 1:
                 theFragment = new FragmentTabbedTwo();
-
                 LogHelper.LogThreadId(logName, "Pager Adapter - Tabbed Navigation - Fragment Selected : " + theFragment);
                 return theFragment;
             default:

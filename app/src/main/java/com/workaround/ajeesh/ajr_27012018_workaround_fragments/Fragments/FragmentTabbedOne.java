@@ -1,12 +1,8 @@
 package com.workaround.ajeesh.ajr_27012018_workaround_fragments.Fragments;
 
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
-import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -16,7 +12,6 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.workaround.ajeesh.ajr_27012018_workaround_fragments.Adapter.AdapterPagerTabbedNavigation;
 import com.workaround.ajeesh.ajr_27012018_workaround_fragments.Helpers.LogHelper;
 import com.workaround.ajeesh.ajr_27012018_workaround_fragments.R;
 
@@ -77,18 +72,4 @@ public class FragmentTabbedOne extends Fragment {
     private void displayHandledMessage(MenuItem item) {
         Toast.makeText(getActivity(), "Handled by Fragment", Toast.LENGTH_LONG).show();
     }
-
-    /*@Override
-    public void onViewCreated(View view, Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-
-        // Get the ViewPager and set it's PagerAdapter so that it can display items
-        ViewPager viewPager = (ViewPager) view.findViewById(R.id.pager);
-        viewPager.setAdapter(new AdapterPagerTabbedNavigation(getActivity().getSupportFragmentManager(),
-                getActivity()));
-
-        // Give the TabLayout the ViewPager
-        TabLayout tabLayout = (TabLayout) view.findViewById(R.id.tab_layout);
-        tabLayout.setupWithViewPager(viewPager);
-    }*/
 }

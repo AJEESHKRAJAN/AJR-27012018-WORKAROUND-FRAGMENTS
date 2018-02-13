@@ -95,6 +95,10 @@ public class MainFragmentsActivity extends AppCompatActivity {
                 generateActivityOnClassType(ActivityActionBar.class);
                 break;
             }
+            case R.id.menuSplitActionBarActivity: {
+                generateActivityOnClassType(ActivitySplitActionBar.class);
+                break;
+            }
             case R.id.menuExit: {
                 onClickExit(item);
             }

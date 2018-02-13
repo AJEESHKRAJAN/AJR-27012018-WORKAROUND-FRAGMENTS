@@ -52,4 +52,9 @@
     <string name="intents_only_option">Intents Only Option</string>
     <string name="title">Choose a Month</string>
     <string name="title_activity_tabbed_navigation">ActivityTabbedNavigation</string>
+    <string name="title_activity_split_action_bar">ActivitySplitActionBar</string>
+    <string name="option_1">Option 1</string>
+    <string name="option_2">Option 2</string>
+    <string name="option_3">Option 3</string>
+    <string name="split_action_bar">Split Action Bar</string>
 </resources>

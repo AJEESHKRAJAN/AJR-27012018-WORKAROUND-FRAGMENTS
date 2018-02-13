@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuOption1"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:onClick="onOption1Clicked"
+        android:title="@string/option_1"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/menuOption2"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:onClick="onOption2Clicked"
+        android:title="@string/option_2"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/menuOption3"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:onClick="onOption3Clicked"
+        android:title="@string/option_3"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/menuExit"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:onClick="onExitClicked"
+        android:title="@string/exit"
+        app:showAsAction="always" />
+</menu>

@@ -32,6 +32,9 @@
         android:id="@+id/menuFragmentActionBarActivity"
         android:title="@string/fragment_action_bar" />
     <item
+        android:id="@+id/menuSplitActionBarActivity"
+        android:title="@string/split_action_bar" />
+    <item
         android:id="@+id/menuExit"
         android:title="@string/exit" />
 </menu>

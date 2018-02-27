@@ -1,5 +1,6 @@
 package com.workaround.ajeesh.ajr_27012018_workaround_fragments;
 
+import android.app.ActionBar;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -8,6 +9,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 import android.view.View;
 
 import com.workaround.ajeesh.ajr_27012018_workaround_fragments.Adapter.AdapterPagerTabbedNavigation;
@@ -78,4 +80,17 @@ public class ActivityTabbedNavigation extends AppCompatActivity {
         });
     }
 
+
+    public void onToggleTitleClick(MenuItem menuItem) {
+
+        android.support.v7.app.ActionBar actionBar = getSupportActionBar();
+
+        int currentOptions = actionBar.getDisplayOptions();
+        boolean currentVisibleValue =
+                (currentOptions & ActionBar.DISPLAY_SHOW_TITLE) != 0;
+        boolean newVisibleValue = !currentVisibleValue;
+
+        actionBar.setDisplayShowHomeEnabled(newVisibleValue);
+        actionBar.setDisplayShowTitleEnabled(newVisibleValue);
+    }
 }

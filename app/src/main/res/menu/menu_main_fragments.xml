@@ -34,6 +34,9 @@
     <item
         android:id="@+id/menuSplitActionBarActivity"
         android:title="@string/split_action_bar" />
+   <item
+        android:id="@+id/menuCallAsyncService"
+        android:title="@string/call_service_async_services" />
     <item
         android:id="@+id/menuExit"
         android:title="@string/exit" />

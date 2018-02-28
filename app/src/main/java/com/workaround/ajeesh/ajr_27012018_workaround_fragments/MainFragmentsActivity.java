@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.workaround.ajeesh.ajr_27012018_workaround_fragments.Helpers.LogHelper;
 
@@ -99,8 +100,13 @@ public class MainFragmentsActivity extends AppCompatActivity {
                 generateActivityOnClassType(ActivitySplitActionBar.class);
                 break;
             }
+            case R.id.menuCallAsyncService: {
+                callAsyncService(item);
+                break;
+            }
             case R.id.menuExit: {
                 onClickExit(item);
+                break;
             }
             default:
                 handled = super.onOptionsItemSelected(item);
@@ -119,4 +125,15 @@ public class MainFragmentsActivity extends AppCompatActivity {
         finish();
     }
 
+    private void callAsyncService(MenuItem item) {
+        LogHelper.LogThreadId(logName, "Service call made from Fragment activity to Async Service - callAsyncService : Simple service");
+        Intent theIntent = new Intent("com.workaround.async.services.intent.action.SIMPLE_SERVICE");
+        theIntent.setPackage("com.workaround.ajeesh.ajr_27002018_workaround_async_services");
+        theIntent.putExtra("fileName", "ResponsiveClientUx.out");
+        startService(theIntent);
+
+        Toast theToast;
+        theToast = Toast.makeText(this, "Service Started From another activity", Toast.LENGTH_LONG);
+        theToast.show();
+    }
 }
